@@ -1,3 +1,5 @@
+import java.util.*
+
 public static int getLength(Node head)
 {
   Node cur = head;
@@ -31,5 +33,10 @@ public static void removeNth(Node head, int n, int length)
 
 public static void main (String[] args)
 {
-  // add function calls here
+  List list = new List();
+  list.head = addElements(list); //arbitrary function that adds to the list and returns the head
+  int sizeOf;
+  sizeOf = getLength(list.head);
+  int n = 3;
+  removeNth(list.head, n, sizeOf);
 }
