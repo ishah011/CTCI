@@ -6,7 +6,7 @@ Implement a data structure SetOfStacks that mimics this. SetOfStacks should be c
 *
 */
 
-//can you have a linked list of stacks? when one stack is at capacity, make a new node containing a stack and link the previous one to it.
+//linked list of stacks, when one stack is at capacity, make a new node containing a stack and link the previous one to it.
 
 class setOfStacks
 {
