@@ -1,3 +1,9 @@
+# 
+# 4.6
+# Design an algorithm to find the 'next' node (in-order successor) of a given node in a BST
+# You may assume that each node has a link to its parent
+#
+
 class Tree:
     def __init__(self, dat, left=None, right=None):
         self.left = left
